@@ -1,0 +1,14 @@
+show databases;
+use kunsh;
+show tables;
+
+
+
+select name from books where price<=300;
+
+alter table books add "Discount-integer" int;
+
+select * from books where author like Pr%;
+
+select name, min(price) from books;
+select name,max(price) from books;

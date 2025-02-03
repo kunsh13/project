@@ -1,0 +1,14 @@
+show databases;
+
+use kunsh;
+
+show tables;
+
+
+select * from students where percentage > 75;
+
+select * from students where name like n%;
+
+select count(name) , avg(percentage )from students; 
+
+insert into students values(6,"Karan",19,77)
