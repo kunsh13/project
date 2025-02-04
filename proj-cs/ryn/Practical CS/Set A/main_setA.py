@@ -39,3 +39,55 @@ while True:
     print(Stack)
   else:
     break
+  '''
+def isempty (stk):
+    if stk == []:
+        return True
+    else:
+        return False
+def Push(stk,elt):
+    stk.append(elt)
+    print("element added successfully")
+    print(stk)
+def Pop(stk):
+    if isempty(stk) :
+        print("stack is empty......UNDERFLOW")
+    else:
+        print("popped element is ", stk.pop())
+def peek(stk):
+    if isempty(stk):
+        print("stack is empty top none!!!!")
+    else:
+        print("element at the top ", stk[-1])
+def display(stk):
+    print(stk[::-1])
+        
+        
+Stack = [ ]
+while True:
+     print("..........Stack Implementation............")
+     print(" 1.Push")
+     print("2.POP")
+     print("3.peek")
+     print("4.display")
+     print("5 EXIT")
+     ch = int(input("enter your choice"))
+     if ch == 1:
+          element = [input("Enter rollno: "), input("Enter name: "), input("Enter marks: ")]
+          Push(Stack,element)
+     elif ch == 2:
+             Pop(Stack)
+     elif ch == 3:
+         peek(Stack)
+     elif ch == 4:
+             display(Stack)
+         
+     elif ch == 5:
+         break
+    '''
+    
+         
+     
+     
+     
+
